@@ -1,0 +1,19 @@
+{
+  "data": [
+    {
+      "name": "blue",
+      "imgPath": "images/flowers/blue.jpeg",
+      "commonDist": 100
+    },
+    {
+      "name": "green",
+      "imgPath": "images/flowers/green.jpeg",
+      "commonDist": 200
+    },
+    {
+      "name": "red",
+      "imgPath": "images/flowers/red.png",
+      "commonDist": 400
+    }
+  ]
+}

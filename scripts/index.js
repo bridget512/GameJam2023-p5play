@@ -1,4 +1,8 @@
+let flowerController = new Flowers();
 
+function preload(){
+    flowerController.preload();
+}
 
 function setup() {
     var canvas = createCanvas(800, 600)
@@ -8,10 +12,13 @@ function setup() {
 
     player = new Sprite(width/2, height/2, 20, 20)
     enemy = new Sprite(80,200, 20)
+
+    flowerController.setup();
 }
 
 function draw() {
     background(252)
+    flowerController.draw(player); //needs player for overlap code
 
     if (mouse.presses()) {
 
